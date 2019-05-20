@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Asap');
+@import url('https://fonts.googleapis.com/css?family=Stylish&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#2E577A;
+
+}
+.output{
+    color: #25272e;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    margin: 20% auto 0 auto;
+
+}
+
+
+
+.source{
+  font-family: 'Stylish', sans-serif;
+}
+
+#button{
+color: #fff !important;
+text-transform: uppercase;
+background: #ed3330;
+padding: 20px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+text-align: center;
+margin-left: 50%;
+margin-right:  50%;
+}
+
+#button:hover {
+background: #434343;
+letter-spacing: 1px;
+border-radius: 10px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
